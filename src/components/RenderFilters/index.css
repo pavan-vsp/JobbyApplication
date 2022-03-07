@@ -1,0 +1,29 @@
+.checkBoxContainer{
+  display: flex;
+  align-items: center;
+}
+.checkBoxContainer > label{
+  margin-left:5px;
+}
+.allFiltersContainer{
+  width: 100%;
+}
+.EmploymentTypeFilter{
+  padding: 0rem 1rem;
+}
+.typeHeading{
+  font-size: 1.5rem;
+}
+.SalaryRangeFilter{
+  padding: 0rem 1rem;
+}
+.rangeHeading{
+   font-size: 1.5rem;
+}
+.radioContainer{
+  display: flex;
+  align-items: center;
+}
+.radioContainer > label{
+  margin-left:5px;
+}

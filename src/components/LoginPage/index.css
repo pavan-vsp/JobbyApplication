@@ -1,0 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 0%;
+}
+.submit-btn {
+  outline: none;
+  border: none;
+  background-color: #6366f1;
+  color: white;
+}
+.LoginPageContainer {
+  width: 50%;
+  min-height: 50%;
+  position: relative;
+  background-color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FormContainer {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 2% 5%;
+}
+.LoginPage-logoImage {
+  align-self: center;
+  padding: 3% 0;
+}
+.input-container label,
+input {
+  font-size: 18px;
+}
+.input-container label {
+  color: white;
+}
+.input-container input {
+  background: transparent;
+  padding: 3% 4%;
+  color: white;
+  border: solid 2px lightgrey;
+  outline: none;
+  border-radius: 0.7rem;
+}
+.input-container input::placeholder {
+  color: lightgrey;
+}
+.submit-btn {
+  font-size: 18px;
+  padding: 3% 0%;
+  border-radius: 0.5rem;
+}
+.error {
+  width: 100%;
+  text-align: center;
+  color: red;
+}

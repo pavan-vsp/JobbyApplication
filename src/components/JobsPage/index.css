@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,300;0,500;1,300&display=swap');
+
+.jobs-container {
+  max-width: 100vw;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.filters-container {
+  width: 30%;
+  padding: 0.3rem 0.5rem;
+}
+
+.jobsList-container {
+  width: 70%;
+}
+.card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+.profile {
+  margin-top: 5px;
+}
+.person-name {
+  color: #4f46e5;
+}
+.card-container > h1,
+p {
+  margin-top: 10px;
+}
+.bio {
+  color: #6366f1;
+  font-weight: 400;
+}
+.jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0.5rem;
+}
+.filterAndJobs {
+  display: flex;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid grey;
+  align-self: flex-start;
+  padding: 0.2rem 0.4rem;
+  margin: 5px 0px;
+  border-radius: 0.3rem;
+}
+.search-icon {
+  color: white;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: white;
+  font-family: 'Poppins';
+}
+.search-input::placeholder {
+  color: grey;
+}
+
+.avatar {
+  width: 50%;
+}
+.filter-container {
+  padding: 0.5rem 0.5rem;
+}
+.filters {
+  background-color: transparent;
+  color: white;
+}
+.loader-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jobs-loader-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FailureCaseForJobsContainer {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+.retryBtn {
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background-color: #4f46e5;
+}
+.FailureCaseForProfileContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NoData {
+  width: 100vw;
+  text-align: center;
+}
+.NodataContainerImage,.NoDataImage{
+  width: 100%;
+}
+
+h1 {
+  color: white;
+}
+.mobile-view{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media all and (min-width:576px){
+
+  .mobile-view{
+    display: none;
+  }
+}
+
+@media all and (max-width:576px){
+
+  .medium-screen{
+    display: none;
+  }
+}
+
+@media  screen and (max-width:576px) {
+  .filters-container{width: 100%;}
+  .filterAndJobs{
+    display: flex;
+    flex-direction: column;
+  }
+  .jobsList-container{width: 100%;
+ }
+}

@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.HeaderContainer {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 0.5rem;
+}
+
+.homeLink,
+.jobsLink {
+  text-decoration: none;
+}
+.tabs-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-logo-container {
+  width: 130px;
+  align-self: center;
+}
+.header-logo-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logout-btn-container {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.tabs-container .header-link1,
+.header-link2 {
+  color: white;
+  background-color: limegreen;
+  padding: 0.4rem 0.7rem;
+  font-weight: 500;
+  border-radius: 0.2rem;
+}
+.logout-btn {
+  padding: 0.4rem 0.7rem;
+  font-size: 18px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+}
+.home,.jobs,.logout{
+  width: 250px;
+}
+.logoutIcon,.logout{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+@media all and (min-width:576px){
+  .Icon{display: none;}
+ 
+}
+@media all and (max-width:576px){
+  .link{display: none;}
+  .header-logo-container{width: 150px;}
+  
+}

@@ -1,0 +1,9 @@
+.skills{
+
+  display: flex;
+  align-items: center;
+  margin:10px ;
+}
+.skillImage{
+  width: 50px;
+}
